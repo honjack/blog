@@ -1,7 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Honjack
- * Date: 2017/9/4
- * Time: 17:00
- */
+<footer class="footer">
+    <p>© 2017 By Honjack</p>
+</footer>
