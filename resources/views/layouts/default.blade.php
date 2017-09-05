@@ -9,9 +9,9 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="renderer" content="webkit"/>
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <link rel="alternate icon" type="image/x-icon" href="{{ URL::asset('i/favicon.ico') }}"/>
+    <link rel="alternate icon" type="image/x-icon" href="{{ \Illuminate\Support\Facades\URL::asset('i/favicon.ico') }}"/>
     <link rel="stylesheet" href="//cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css"/>
-    {{ HTML::style('css/custom.css') }}
+    {{ Html::style('css/custom.css') }}
 </head>
 <body>
 <header class="am-topbar am-topbar-fixed-top">
