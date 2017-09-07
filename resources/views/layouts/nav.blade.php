@@ -1,5 +1,13 @@
 <div class="am-collapse am-topbar-collapse" id="collapse-head">
     @if (Auth::check())
+
+        @if (Auth::user()->is_admin)
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+                <li class=""><a href="">Users</a></li>
+            </ul>
+        @endif
+
+
         <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right">
             <li class="am-dropdown" data-am-dropdown>
                 <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">

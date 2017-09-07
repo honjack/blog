@@ -22,5 +22,13 @@ class RedirectIfAuthenticated
         }
 
         return $next($request);
-    }
+    };
+
+    public function isAdmin($request,Closure $next)
+    {
+        if(!Auth::user()->is_admin){
+            return Redirect::to('/');
+        }
+    };
+
 }
