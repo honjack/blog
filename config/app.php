@@ -138,6 +138,8 @@ return [
 
     'providers' => [
         Collective\Html\HtmlServiceProvider::class,
+        MaxHoffmann\Parsedown\ParsedownServiceProvider,
+
 
 
         /*
@@ -196,6 +198,8 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'Input' => Illuminate\Support\Facades\Input::class,
+        'Markdown'=> MaxHoffmann\Parsedown\ParsedownFacade,
+
 
 
         'App' => Illuminate\Support\Facades\App::class,

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "242d5a72daf3476548aa5d08ef495f37",
+    "content-hash": "5cd7c0a94623ff02c6822ebf7bacadef",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -405,16 +405,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.5.2",
+            "version": "v5.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "65da63c8ad4836e2bcddcff75becd49c71c5041c"
+                "reference": "779a98d3b2ebed2128db1a668dcc10a65c9b01be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/65da63c8ad4836e2bcddcff75becd49c71c5041c",
-                "reference": "65da63c8ad4836e2bcddcff75becd49c71c5041c",
+                "url": "https://files.phpcomposer.com/files/laravel/framework/779a98d3b2ebed2128db1a668dcc10a65c9b01be.zip",
+                "reference": "779a98d3b2ebed2128db1a668dcc10a65c9b01be",
                 "shasum": ""
             },
             "require": {
@@ -533,7 +533,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-09-04T14:09:04+00:00"
+            "time": "2017-09-07T13:50:21+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -608,7 +608,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/2f6dc39ab3655724a615fe8a652d8b7f04fc9ac6",
+                "url": "https://files.phpcomposer.com/files/LaravelCollective/html/2f6dc39ab3655724a615fe8a652d8b7f04fc9ac6.zip",
                 "reference": "2f6dc39ab3655724a615fe8a652d8b7f04fc9ac6",
                 "shasum": ""
             },
@@ -745,6 +745,51 @@
                 "storage"
             ],
             "time": "2017-08-06T17:41:04+00:00"
+        },
+        {
+            "name": "maxhoffmann/parsedown-laravel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxhoffmann/parsedown-laravel.git",
+                "reference": "0499236974239d2193c12e7925b8178d9af8bc4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/maxhoffmann/parsedown-laravel/0499236974239d2193c12e7925b8178d9af8bc4e.zip",
+                "reference": "0499236974239d2193c12e7925b8178d9af8bc4e",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MaxHoffmann\\Parsedown": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maximilian Hoffmann",
+                    "email": "max@maximilianhoffmann.com"
+                }
+            ],
+            "description": "A parsedown (markdown) wrapper for Laravel ",
+            "homepage": "https://github.com/maxhoffmann/parsedown-laravel",
+            "keywords": [
+                "Laravel 4",
+                "laravel",
+                "markdown",
+                "parsedown",
+                "php"
+            ],
+            "time": "2013-12-13T23:54:04+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2795,7 +2840,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6",
+                "url": "https://files.phpcomposer.com/files/phpspec/prophecy/c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6.zip",
                 "reference": "c9b8c6088acd19d769d4cc0ffa60a9fe34344bd6",
                 "shasum": ""
             },
@@ -3893,7 +3938,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "maxhoffmann/parsedown-laravel": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
